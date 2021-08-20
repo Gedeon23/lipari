@@ -1,0 +1,56 @@
+.theme-light {
+    --editor-background: white;
+    --background-nav: #141414;
+    --background-nav-alt: rgb(226, 215, 215);
+}
+.theme-dark {
+    --editor-background: rgb(18,18,18);
+    --background-nav: #141414;
+    --background-nav-alt: #181818;
+}
+
+.view-content {
+    background: var(--editor-background) !important;
+}
+.workspace-leaf {
+    background-color: var(--background-nav) !important;
+}
+
+.workspace-tab-container-before.is-before-active .workspace-tab-header-inner, 
+.workspace-tab-container-after.is-after-active .workspace-tab-header-inner, 
+.workspace-tab-header.is-before-active .workspace-tab-header-inner, 
+.workspace-tab-header.is-after-active .workspace-tab-header-inner,
+.workspace-tab-header-container, .workspace-ribbon {
+  background-color: var(--background-nav-alt);
+}
+
+.workspace-tab-header.is-after-active,
+.workspace-tab-container-after.is-after-active,
+.workspace-tab-header.is-before-active, 
+.workspace-tab-container-before.is-before-active {
+    background-color: var(--background-nav);
+}
+
+.workspace-tab-header.is-active {
+    background-color: var(--background-nav);
+}
+
+
+
+
+.workspace-tab-header {
+}
+
+/* minimal embed styling */
+.markdown-embed-title {
+    display: none;
+}
+.markdown-embed {
+    border: 0px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+
+
+
